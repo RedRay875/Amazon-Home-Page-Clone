@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+
+            <div class="nav-logo border">
+                <div class="logo">
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-1">
+                    Deliver to
+                </p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    </i>
+                    <p class="add-2">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select>
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-lang border">
+                <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="lang-flag">
+                <span class="lang-code">EN</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div class="nav-account border">
+                <p class="nav-line1">Hello, sign in</p>
+                <p class="nav-line2">Account & Lists <i class="fa-solid fa-caret-down"></i></p>
+            </div>
+
+            <div class="nav-orders border">
+                <p class="nav-line1">Returns</p>
+                <p class="nav-line2">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count">0</span>
+                <span class="cart-text">Cart</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all" id="toggle-side-panel">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+
+            <div class="panel-options">
+                <p>MX Player</p>
+                <p>Sell</p>
+                <p>Bestsellers</p>
+                <p>Mobiles</p>
+                <p>Prime</p>
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Fashion</p>
+                <p>New Releases</p>
+                <p>Amazon Pay</p>
+                <p>Electronic</p>
+                <p>Home & Kitchen</p>
+            </div>
+        </div>
+
+        <div id="sidePanelWrapper">
+            <div class="side-panel-close" id="closeSidePanel">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="side-panel" id="sidePanel">
+                <div class="side-panel-header">
+                    <div class="side-panel-user">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>Hello, sign in</h3>
+                    </div>
+                </div>
+                <div class="side-panel-content">
+                    <div class="side-panel-section">
+                        <h3>Trending</h3>
+                        <div class="panel-item">Bestsellers</div>
+                        <div class="panel-item">New Releases</div>
+                        <div class="panel-item">Movers and Shakers</div>
+                    </div>
+
+                    <div class="side-panel-section">
+                        <h3>Digital Content and Devices</h3>
+                        <div class="panel-item">Echo & Alexa</div>
+                        <div class="panel-item">Fire TV</div>
+                        <div class="panel-item">Kindle E-Readers & eBooks</div>
+                        <div class="panel-item">Audible Audiobooks</div>
+                        <div class="panel-item">Amazon Prime Video</div>
+                        <div class="panel-item">Amazon Prime Music</div>
+                    </div>
+
+                    <div class="side-panel-section">
+                        <h3>Shop by Category</h3>
+                        <div class="panel-item">Mobiles, Computers</div>
+                        <div class="panel-item">TV, Appliances, Electronics</div>
+                        <div class="panel-item">Men's Fashion</div>
+                        <div class="panel-item">Women's Fashion</div>
+                        <div class="panel-item">See all</div>
+                    </div>
+
+                    <div class="side-panel-section">
+                        <h3>Programs & Features</h3>
+                        <div class="panel-item">Amazon Pay</div>
+                        <div class="panel-item">Cards & Mobile Recharges</div>
+                        <div class="panel-item">Amazon Launchpad</div>
+                        <div class="panel-item">Business</div>
+                        <div class="panel-item">See all</div>
+                    </div>
+
+                    <div class="side-panel-section">
+                        <h3>Help & Settings</h3>
+                        <div class="panel-item">Your Account</div>
+                        <div class="panel-item">Customer Service</div>
+                        <div class="panel-item">Sign in</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-section">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="slide" style="background-image: url('Resources/home8_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home1_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home2_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home3_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home4_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home5_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home6_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home7_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home8_image.jpg');"></div>
+                    <div class="slide" style="background-image: url('Resources/home1_image.jpg');"></div>
+                </div>
+
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+
+        <div class="shopping_section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Home Accesories</h2>
+                    <div class="box-img" style="background-image: url('Resources/box1_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Personal Care</h2>
+                    <div class="box-img" style="background-image: url('Resources/box2_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Home Decorations</h2>
+                    <div class="box-img" style="background-image: url('Resources/box3_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Smart Phones</h2>
+                    <div class="box-img" style="background-image: url('Resources/box4_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Beauty-Picks</h2>
+                    <div class="box-img" style="background-image: url('Resources/box5_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Pet Car</h2>
+                    <div class="box-img" style="background-image: url('Resources/box6_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>New Arrivals in Toys</h2>
+                    <div class="box-img" style="background-image: url('Resources/box7_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Discover Fashion</h2>
+                    <div class="box-img" style="background-image: url('Resources/box8_image.jpg');"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-backtotop">Back to top</div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Get to Know Us</h3>
+                    <p>About Amazon</p>
+                    <p>Careers</p>
+                    <p>Press Releases</p>
+                    <p>Amazon Science</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect with Us</h3>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Make Money with Us</h3>
+                    <p>Sell on Amazon</p>
+                    <p>Sell under Amazon Accelerator</p>
+                    <p>Protect and Build Your Brand</p>
+                    <p>Amazon Global Selling</p>
+                    <p>Supply to Amazon</p>
+                    <p>Become an Affiliate</p>
+                    <p>Fulfilment by Amazon</p>
+                    <p>Advertise Your Products</p>
+                    <p>Amazon Pay on Merchants</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Let Us Help You</h3>
+                    <p>Your Account</p>
+                    <p>Returns Centre</p>
+                    <p>Recalls and Product Safety Alerts</p>
+                    <p>100% Purchase Protection</p>
+                    <p>Amazon App Download</p>
+                    <p>Help</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon logo" class="footer-logo" />
+                <div class="footer-lang-country">
+                    <div class="footer-language"><i class="fa-solid fa-globe"></i> English</div>
+                    <div class="footer-country"><img src="https://flagcdn.com/w40/in.png" alt="India flag"> India</div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const track = document.querySelector('.carousel-track');
+            const slides = document.querySelectorAll('.slide');
+            const nextBtn = document.querySelector('.next');
+            const prevBtn = document.querySelector('.prev');
+
+            let currentIndex = 1;
+            const slideWidth = slides[0].clientWidth;
+            track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+
+            let isTransitioning = false;
+
+            function moveToSlide(index) {
+                if (isTransitioning) return;
+                isTransitioning = true;
+                track.style.transition = 'transform 0.5s ease-in-out';
+                track.style.transform = `translateX(-${slideWidth * index}px)`;
+                currentIndex = index;
+            }
+
+            function handleTransitionEnd() {
+                isTransitioning = false;
+                if (currentIndex === 0) {
+                    track.style.transition = 'none';
+                    currentIndex = slides.length - 2;
+                    track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+                } else if (currentIndex === slides.length - 1) {
+                    track.style.transition = 'none';
+                    currentIndex = 1;
+                    track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+                }
+            }
+
+            track.addEventListener('transitionend', handleTransitionEnd);
+
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex >= slides.length - 1) return;
+                moveToSlide(currentIndex + 1);
+                resetAutoSlide();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex <= 0) return;
+                moveToSlide(currentIndex - 1);
+                resetAutoSlide();
+            });
+
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(() => {
+                    moveToSlide(currentIndex + 1);
+                }, 6000);
+            }
+
+            function resetAutoSlide() {
+                clearInterval(autoSlideInterval);
+                startAutoSlide();
+            }
+
+            startAutoSlide();
+
+            const toggleBtn = document.getElementById('toggle-side-panel');
+            const sidePanelWrapper = document.getElementById('sidePanelWrapper');
+            const closeBtn = document.getElementById('closeSidePanel');
+
+            toggleBtn.addEventListener('click', () => {
+                sidePanelWrapper.classList.add('show');
+            });
+
+            closeBtn.addEventListener('click', () => {
+                sidePanelWrapper.classList.remove('show');
+            });
+
+        </script>
+</body>
+
+</html>
